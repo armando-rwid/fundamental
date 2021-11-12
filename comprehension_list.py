@@ -1,4 +1,4 @@
-print('\nList Daftar Buku Tess Pull')
+print('\nList Daftar Buku')
 
 daftar_buku = ['Seven Habits', 'How to Influence', 'First Things', '4DX']
 for i in range(0, len(daftar_buku)):
