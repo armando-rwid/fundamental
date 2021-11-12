@@ -24,3 +24,9 @@ print('\nSesudah Tambah Kenzie')
 data_person.append('Kenzie')
 for i in range(0, len(data_person)):
     print(data_person[i])
+
+print('\nGanti Elemen Pertama')
+data_buku = ['Python Fundamental','Fundamental Analisis','Teknik Trading']
+data_buku[0] = 'Trading Sehat'
+for i in range(0, len(data_buku)):
+    print(data_buku[i])
