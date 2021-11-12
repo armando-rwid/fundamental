@@ -26,7 +26,14 @@ for i in range(0, len(data_person)):
     print(data_person[i])
 
 print('\nGanti Elemen Pertama')
-data_buku = ['Python Fundamental','Fundamental Analisis','Teknik Trading']
+data_buku = ['Python Fundamental','Fundamental Analisis','Teknik Trading','Tesla Motor']
 data_buku[0] = 'Trading Sehat'
 for i in range(0, len(data_buku)):
     print(data_buku[i])
+
+print('\nAmbil Elemen berdasarkan indeks tertentu')
+ambil_buku = data_buku.pop(2)
+print('Buku yang diambil : ', ambil_buku)
+print('Yang Tersisa : ')
+for i in range(0, len(data_buku)):
+    print('Buku ke -',i+1,'.',data_buku[i])
