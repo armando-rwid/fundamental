@@ -89,7 +89,7 @@ users = {
   }
 
 for i in range(0, len(users)) :
-    print('Nama : ',users[i]['name'],',','Username : ', users[i]['username'],',','Company',users[i]['company']['name'],',','CatchPhrase : ',users[i]['company']['catchPhrase'])
+    print(i+1, 'Nama : ',users[i]['name'],',','Username : ', users[i]['username'],',','Company',users[i]['company']['name'],',','CatchPhrase : ',users[i]['company']['catchPhrase'])
 
 import json
 result = json.dumps(users)
